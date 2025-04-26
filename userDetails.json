@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Aarav",
+      "lastName": "Sharma",
+      "age": 28,
+      "native": "Delhi",
+      "designation": "Software Engineer"
+    },
+    {
+      "id": 2,
+      "firstName": "Vivaan",
+      "lastName": "Verma",
+      "age": 32,
+      "native": "Mumbai",
+      "designation": "Project Manager"
+    },
+    {
+      "id": 3,
+      "firstName": "Diya",
+      "lastName": "Reddy",
+      "age": 25,
+      "native": "Hyderabad",
+      "designation": "UI/UX Designer"
+    },
+    {
+      "id": 4,
+      "firstName": "Aditya",
+      "lastName": "Patel",
+      "age": 30,
+      "native": "Ahmedabad",
+      "designation": "Backend Developer"
+    },
+    {
+      "id": 5,
+      "firstName": "Ishita",
+      "lastName": "Nair",
+      "age": 27,
+      "native": "Kochi",
+      "designation": "Marketing Executive"
+    },
+    {
+      "id": 6,
+      "firstName": "Krishna",
+      "lastName": "Rao",
+      "age": 35,
+      "native": "Chennai",
+      "designation": "Business Analyst"
+    },
+    {
+      "id": 7,
+      "firstName": "Anaya",
+      "lastName": "Gupta",
+      "age": 24,
+      "native": "Pune",
+      "designation": "Frontend Developer"
+    },
+    {
+      "id": 8,
+      "firstName": "Aryan",
+      "lastName": "Mehta",
+      "age": 31,
+      "native": "Bangalore",
+      "designation": "DevOps Engineer"
+    },
+    {
+      "id": 9,
+      "firstName": "Saanvi",
+      "lastName": "Shah",
+      "age": 26,
+      "native": "Jaipur",
+      "designation": "Content Writer"
+    },
+    {
+      "id": 10,
+      "firstName": "Rohan",
+      "lastName": "Bansal",
+      "age": 29,
+      "native": "Lucknow",
+      "designation": "Data Scientist"
+    },
+    {
+      "id": 11,
+      "firstName": "Meera",
+      "lastName": "Chopra",
+      "age": 23,
+      "native": "Bhopal",
+      "designation": "Social Media Manager"
+    },
+    {
+      "id": 12,
+      "firstName": "Kabir",
+      "lastName": "Deshmukh",
+      "age": 34,
+      "native": "Nagpur",
+      "designation": "Technical Lead"
+    },
+    {
+      "id": 13,
+      "firstName": "Tara",
+      "lastName": "Joshi",
+      "age": 22,
+      "native": "Indore",
+      "designation": "QA Tester"
+    },
+    {
+      "id": 14,
+      "firstName": "Yuvan",
+      "lastName": "Kumar",
+      "age": 33,
+      "native": "Patna",
+      "designation": "Product Manager"
+    },
+    {
+      "id": 15,
+      "firstName": "Navya",
+      "lastName": "Pillai",
+      "age": 27,
+      "native": "Thiruvananthapuram",
+      "designation": "Graphic Designer"
+    },
+    {
+      "id": 16,
+      "firstName": "Arjun",
+      "lastName": "Menon",
+      "age": 28,
+      "native": "Kozhikode",
+      "designation": "Mobile App Developer"
+    },
+    {
+      "id": 17,
+      "firstName": "Shruti",
+      "lastName": "Shetty",
+      "age": 24,
+      "native": "Mangalore",
+      "designation": "Research Analyst"
+    },
+    {
+      "id": 18,
+      "firstName": "Dev",
+      "lastName": "Chatterjee",
+      "age": 31,
+      "native": "Kolkata",
+      "designation": "Financial Advisor"
+    },
+    {
+      "id": 19,
+      "firstName": "Aisha",
+      "lastName": "Mukherjee",
+      "age": 26,
+      "native": "Siliguri",
+      "designation": "Human Resources"
+    },
+    {
+      "id": 20,
+      "firstName": "Om",
+      "lastName": "Bhattacharya",
+      "age": 30,
+      "native": "Guwahati",
+      "designation": "Operations Manager"
+    }
+  ]
+}
