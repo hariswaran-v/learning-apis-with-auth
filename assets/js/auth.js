@@ -7,9 +7,14 @@ const greetUserEl = document.querySelector("span#greetUser");
 
 formEl.addEventListener("submit", async (e) => {
   e.preventDefault();
+
   if (usernameEl && passwordEl) {
     try {
       const userInfo = await loginUser(usernameEl.value, passwordEl.value);
+
+      if (!userInfo) {
+        throw new Error("No response from server");
+      }
 
       if (userInfo.message === "Invalid credentials") {
         alert(userInfo.message);
@@ -18,13 +23,10 @@ formEl.addEventListener("submit", async (e) => {
         greetUserEl.textContent = userInfo.firstName + " " + userInfo.lastName;
       }
     } catch (error) {
-      // Added check to handle if error doesn't have a message property
       const errorMessage =
         error?.message || "Something went wrong, please try again!";
       console.log("Error:", errorMessage);
-      alert(errorMessage); // To show the message in a more user-friendly way
+      alert(errorMessage);
     }
-  } else {
-    console.log("Can't get the value");
   }
 });

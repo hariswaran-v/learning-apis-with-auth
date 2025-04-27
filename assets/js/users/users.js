@@ -3,7 +3,7 @@ const USER_DETAIL = "https://dummyjson.com/users/";
 const LOGIN_USER = "https://dummyjson.com/auth/login";
 export const getAllUsers = async () => {
   const userResponse = await fetch(ALL_USERS_URL);
-  const userJson = userResponse.json();
+  const userJson = await userResponse.json();
   return userJson;
 };
 
@@ -21,7 +21,12 @@ export const loginUser = async (username, password) => {
       password,
     }),
   });
+  if (!loginResponse.ok) {
+    throw new Error("Login failed. Please try again.");
+  }
+
   const userJson = await loginResponse.json();
   console.log(userJson);
-  // return userJson;
+
+  return userJson; // ✅ Now it returns the user data
 };
